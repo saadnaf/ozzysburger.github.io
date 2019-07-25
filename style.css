@@ -1,0 +1,267 @@
+body{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Global */
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: 'Courgette', cursive;
+    background-color: #fff;
+    color: #f3582d;
+    min-height: 50px;
+    border-bottom: #f3582d 5px solid;
+    border-top: #f3582d 5px solid;
+    font-size: 30px;
+    text-align: center;  
+}
+
+.title h1{
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+
+header{
+    background-color: #fff;
+    color: #f3582d;
+    min-height: 70px;
+    border-bottom: #f3582d 5px solid;
+}
+
+header a{
+    color: #f3582d;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+header li{
+    font-family: 'Kalam', sans-serif;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+#branding{
+    float:left;
+}
+
+#branding img{
+    width: 100px;
+}
+
+nav{
+    float: right;
+    margin-top: 35px;
+}
+
+header .highlight, header .current a{
+    color: #000;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #000;
+    font-weight: bold;
+}
+
+/* Section - Welcome */
+
+#welcome{
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    color: #f3582d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+}
+
+#ozzy{
+    text-align: center;
+    color: #fff;
+}
+
+#ozzy img{
+    height: 800px;
+    width: 100%;
+    image-rendering: crisp-edges;
+    filter: blur(5px);
+}
+
+/* Footer */
+
+footer{
+    padding: 10px;
+    color: #fff;
+    background-color: #f3582d;
+    text-align: center;
+    
+}
+
+#Locations .gridContainerSingle .description h2 {
+    font-size: 50px;
+}
+
+/* Section - Menu */
+
+.resize{
+    object-fit: cover;
+}
+
+
+.titleClassic {
+    font-family: 'Courgette', cursive;
+    background-color: #fff;
+    color: #f3582d;
+    min-height: 50px;
+    border-bottom: #f3582d 5px solid;
+    font-size: 30px;
+    text-align: center;  
+}
+
+.titleClassic h1{
+    margin: 0;
+    padding: 0;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 30% 20% 30% 20%;
+    background-color: #f4f4f4;
+    text-align: center;
+    
+}
+
+.gridContainerSingle{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #f4f4f4;
+    text-align: center;  
+}
+
+.gridContainerSingleReverse{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #f4f4f4;
+    text-align: center;  
+}
+
+.gridContainerDouble{
+    display: grid;
+    grid-template-columns: 30% 40% 30% ;
+    background-color: #f4f4f4;
+    text-align: center;  
+}
+
+.gridContainerOne{
+    display: grid;
+    grid-template-columns: 25% 50% 25% ;
+    background-color: #f4f4f4;
+    text-align: center;  
+    
+}
+
+.picture{
+    background-color: #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.description{
+    background-color: #f3582d;
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.descriptionHours{
+    background-color: #f4f4f4;
+}
+
+.description h2{
+    font-family: 'Kalam', sans-serif;
+    font-size: 40px;
+}
+
+.description p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+}
+
+.description .price{
+    font-family: 'Kalam', sans-serif;
+    font-size: 30px;
+}
+
+.description .price2{
+    font-family: 'Kalam', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.gridContainerSingle .description .locationText{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+}
+
+/* Other */
+
+.fixmeFB{
+    position: fixed;
+    top: 300px;
+}
+
+.fixmeInsta{
+    position: fixed;
+    top: 365px;
+}
+
+.fixmeTW{
+    position: fixed;
+    top: 430px;
+}
+
+
+.button{
+    background-color: #000;
+    color:#fff;
+    padding: 20px 25px;
+    border: none;
+}
+
+.button:hover{
+    background-color: #f3582d;
+}
+
+.scaling{
+    width: 20px;
+}
