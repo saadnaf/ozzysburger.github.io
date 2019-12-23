@@ -3,8 +3,10 @@
 
 <head>
     <title>Ozzy's Burger | Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" sizes="16x16" href="./img/favicon.png">   
@@ -12,17 +14,16 @@
 
 <body>
     <header>
-        <div class="container">
-            <div id="branding">
-                <img src="./img/ozzyslogo.jpg">
-            </div>
+        <div class="containerMine">
+            <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand" id="branding"> 
+                    <img src="./img/ozzysMenu.jpg">
+                </a>
 
-            <nav>
-                <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="location.html">Locations & Hours</a></li>
-                    
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item current"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="location.html">Locations & Hours</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,11 +31,9 @@
 
     <section id="ozzy">
         <img src="./img/ozzysres.jpg">
+        <p class="welcome">Welcome to Ozzy's</p>
     </section>
-
-    <section id="welcome">
-        <p>Welcome to Ozzy's</p>
-    </section>    
+ 
 
     <footer id="footer">
         <p>Ozzy's Burgers, Copyright &copy; 2019. All rights reserved</p>
