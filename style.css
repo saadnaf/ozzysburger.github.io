@@ -91,6 +91,10 @@ header a:hover{
     transform: translate(-50%, -50%);
 }
 
+.borderText{
+    text-shadow: 2px 2px black;
+}
+
 #ozzy{
     text-align: center;
     color: #fff;
